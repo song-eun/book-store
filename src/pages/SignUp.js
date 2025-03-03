@@ -22,9 +22,9 @@ const SignUp = () => {
             Confirm Password
             <input type="password" />
           </label>
-          <button>Sign Up</button>
+          <button>Sign up</button>
         </form>
-        <button>Login</button>
+        <button>Log in</button>
       </div>
     </div>
   );

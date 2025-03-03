@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <div className="page-wrapper">
       <div className="auth-form-container">
-        <h1> Login</h1>
+        <h1>Login</h1>
         <form className="auth-form">
           <label>
             ID
@@ -16,7 +16,7 @@ const Login = () => {
           </label>
           <button>Log in</button>
         </form>
-        <button>Sign Up</button>
+        <button>Sign up</button>
       </div>
     </div>
   );
