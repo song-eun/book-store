@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <div className="page-wrapper">
       <div className="login-container">
-        <h1> Log in</h1>
+        <h1> Login</h1>
         <form className="login-form">
           <label>
             ID
