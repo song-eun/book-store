@@ -19,8 +19,8 @@ const Header = () => {
       </div>
 
       <div className="customer-service">
-        <Link to="#home">Sign up</Link>
-        <Link to="#home">Log in</Link>
+        <Link to="/">Sign up</Link>
+        <Link to="/">Log in</Link>
       </div>
     </div>
   );
