@@ -3,7 +3,9 @@
   align-items: center;
   justify-content: space-between;
   /* background-color: #fbf5e9; */
-  background-color: #fff;
+  /* background-color: #fff; */
+  /* background: linear-gradient(135deg, #fdfbfb, #ebedee); */
+  background-color: transparent;
   padding: 30px;
   height: 35px;
 }
@@ -31,10 +33,10 @@
   border: none;
   padding: 8px 12px;
   font-size: 16px;
-  background-color: #ebebe5;
+  /* background-color: #ebebe5; */
+  background-color: rgb(255, 255, 255);
   height: 30px;
   width: 100%;
-  outline: none; /* 클릭 시 파란 테두리 제거 */
 }
 
 .search-input::placeholder {
