@@ -1,4 +1,4 @@
-.login-container {
+.auth-form-container {
   width: 100%;
   max-width: 400px;
   padding: 50px;
@@ -8,21 +8,21 @@
   text-align: center;
 }
 
-.login-container h1 {
+.auth-form-container h1 {
   font-size: 28px;
   color: #333;
   margin-bottom: 20px;
   font-weight: 600;
 }
 
-.login-form {
+.auth-form {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.login-form label {
+.auth-form label {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -31,7 +31,7 @@
   font-weight: 500;
 }
 
-.login-form input {
+.auth-form input {
   width: 100%;
   padding: 12px;
   border: 2px solid #d5d5d5;
@@ -39,14 +39,14 @@
   transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.login-form input:focus {
+.auth-form input:focus {
   border-color: #888;
   outline: none;
 }
 
-.login-form input,
-.login-form button,
-.login-container > button {
+.auth-form input,
+.auth-form button,
+.auth-form-container > button {
   width: 100%;
   padding: 15px 10px;
   font-size: 16px;
@@ -54,30 +54,30 @@
   box-sizing: border-box; /* padding 포함한 크기 계산 */
 }
 
-.login-form button,
-.login-container > button {
+.auth-form button,
+.auth-form-container > button {
   margin-top: 20px;
   font-family: "Merriweather Sans";
   font-weight: 100;
   cursor: pointer;
 }
 
-.login-form button {
+.auth-form button {
   background-color: #ea701a;
   border: none;
   color: white;
 }
 
-.login-form button:hover {
+.auth-form button:hover {
   background-color: #cf5d0e;
 }
 
-.login-container > button {
+.auth-form-container > button {
   background-color: white;
   color: #ea701a;
   border: 1px solid #ea701a;
 }
 
-.login-container > button:hover {
+.auth-form-container > button:hover {
   background-color: #e5711f26;
 }

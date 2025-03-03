@@ -1,11 +1,11 @@
-import "./Login.css";
+import "./Form.css";
 
 const Login = () => {
   return (
     <div className="page-wrapper">
-      <div className="login-container">
+      <div className="auth-form-container">
         <h1> Login</h1>
-        <form className="login-form">
+        <form className="auth-form">
           <label>
             ID
             <input type="text" className="input-top" />
