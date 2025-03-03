@@ -1,6 +1,6 @@
 import "./Form.css";
 
-const SignUp = () => {
+const Signup = () => {
   return (
     <div className="page-wrapper">
       <div className="auth-form-container">
@@ -30,4 +30,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Signup;
