@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #fbf5e9; */
+  background-color: #fff;
+  padding: 30px;
+  height: 35px;
+}
+
+.logo {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px #d5d5d5 solid; */
+  width: 48%;
+  /* border-radius: 50px; */
+  /* background-color: #fff; */
+  /* background-color: #ebebe5; */
+  /* overflow: hidden; */
+  gap: 6px;
+}
+
+.search-input {
+  /* flex: 1; 남은 공간을 자동으로 채움 */
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #ebebe5;
+  height: 30px;
+  width: 100%;
+  outline: none; /* 클릭 시 파란 테두리 제거 */
+}
+
+.search-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Merriweather Sans";
+  font-weight: 100;
+}
+
+.search-btn {
+  background-color: #ea701a;
+  /* background-color: transparent; */
+  border: none;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+}
+
+.customer-service {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* 링크 사이 간격 조정 */
+  /* justify-content: space-evenly; */
+}
+
+/* .customer-service a {
+  margin-left: 15px;
+} */
+
+.white-icon {
+  color: white;
+}
