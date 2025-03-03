@@ -6,7 +6,11 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   return (
     <div className="header">
-      <div className="logo">Book Store</div>
+      <div>
+        <Link className="logo" to="/">
+          Book Store
+        </Link>
+      </div>
       <div className="search-box">
         <input className="search-input" type="text" placeholder="Search" />
         <button className="search-btn">
